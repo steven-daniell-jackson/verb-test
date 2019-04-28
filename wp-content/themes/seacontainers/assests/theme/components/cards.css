@@ -1,0 +1,45 @@
+/* Cards */
+.card__block:first-child .card{
+ margin-right: 1rem; 
+}
+.card__block:last-child .card {
+ margin-left: 1rem; 
+}
+
+.card__block .card-body {
+  padding: 1rem 1.5rem;
+}
+.card__block .card-title {
+  font-size: 1.5rem;
+}
+.card__block .card-text {
+     max-height: 93px;
+    overflow: hidden;
+}
+
+.card__block a {
+ background-color: none;
+}
+.card__block a:hover {
+color: #dc3545;
+}
+/* !Cards */
+
+/* Media Queries*/
+/*iPhone*/
+@media screen and (max-width: 667px) {
+
+
+.card__block .card {
+    margin: 1rem 0;
+}
+
+.card__block:first-child .card {
+    margin-right: 0rem;
+}
+
+.card__block:last-child .card {
+    margin-left: 0rem;
+}
+
+}

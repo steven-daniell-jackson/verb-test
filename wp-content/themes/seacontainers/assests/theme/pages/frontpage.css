@@ -1,0 +1,97 @@
+
+/* Homepage Offers*/
+
+.homepage__offers h3{
+  font-size: 1.3rem;
+  padding-bottom: 3rem;
+  letter-spacing: 3px;
+}
+
+/* !Homepage Offers*/
+
+
+/* Instagram Block*/
+section.instagram-block {
+  padding: 3rem 0 1rem 0;
+}
+section.instagram-block .instagram-block-heading{
+  padding: 2rem;
+}
+
+section.instagram-block .instagram-block-heading img {
+  /*padding: 2rem;*/
+  max-width: 300px;
+}
+/* !Instagram Block*/
+
+
+/* View Port*/
+.viewport-wrapper {
+  height: 100vh;
+}
+
+.viewport-wrapper header nav {
+  height: 12vh;
+}
+.viewport-wrapper .banner-img-wrapper > img {
+  height: 70vh;
+  background-size: cover;
+}
+
+.viewport-wrapper > .check-in-wrapper {
+  height: 15vh;
+}
+
+/* !View Port*/
+
+
+/* Media Queries*/
+/*iPhone*/
+@media screen and (max-width: 667px) {
+
+.viewport-wrapper header nav {
+       height: 20vh;
+}
+.viewport-wrapper .banner-img-wrapper > img {
+    height: 30vh;
+    background-position: bottom;
+    background-size: auto;
+}
+.viewport-wrapper > .check-in-wrapper {
+   height: 50vh;
+   padding: 1rem;
+}
+
+}
+
+/*iPad*/
+@media screen and (max-width: 1024px) { 
+.viewport-wrapper header nav {
+       height: 15vh;
+}
+.viewport-wrapper .banner-img-wrapper > img {
+    height: 65vh;
+    background-position: bottom;
+    background-size: auto;
+}
+.viewport-wrapper > .check-in-wrapper {
+   height: 20vh;
+   padding: 1rem;
+}
+}
+
+/* !Small Phones*/
+@media screen and (max-width: 425px) { 
+.viewport-wrapper header nav {
+       height: 15vh;
+}
+.viewport-wrapper .banner-img-wrapper > img {
+    height: 50vh;
+    background-position: bottom;
+    background-size: auto;
+}
+.viewport-wrapper > .check-in-wrapper {
+   height: 35vh;
+   padding: 1rem;
+}
+}

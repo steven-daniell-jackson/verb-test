@@ -1,0 +1,23 @@
+
+/* content-block-6x6-with-button */
+.content-block-6x6-with-button {
+  padding: 2rem 0;
+}
+.content-block-6x6-with-button >.row:last-child  {
+  padding: 2rem 0;
+}
+.content-block-6x6-with-button a{
+  border: 1px solid var(--button-border-color-red);
+  color: var(--button-color-red);
+  background-color: white;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  transition: all linear .3s;
+}
+.content-block-6x6-with-button a:hover{
+  border: 1px solid var(--button-border-color-red);
+  color: white;
+   background-color:var(--button-border-color-red);
+  padding: 1rem 3rem;
+}
+/* !content-block-6x6-with-button */

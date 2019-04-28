@@ -1,0 +1,13 @@
+<?php /* Template Name: Contact Page */ 
+
+ get_template_part('inc/partials/header'); 
+get_header();
+
+while ( have_posts() ) : the_post(); 
+?>
+<main>
+<section class="sj-block m-5"><div class="container-fluid p-0 pb-md-5"><iframe allowfullscreen="" class="map" frameborder="0" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d26.101253041406952!3d44.43635311654287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58147f39579fe6fa!2zR3J1cHVsIFN0YXR1YXIgIkPEg3J1yJthIEN1IFBhaWHIm2Ui!5e0!3m2!1sen!2sro!4v1507381157656" style="border:0" width="100%"></iframe></div><div class="container"><div class="row mt-5"><div class="col-12 col-md-6 col-lg-5"><h2>Contact Us</h2><p class="lead"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p><p class="lead"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </p><p class="h3 mt-5"><strong>Email:</strong><a href="#">hello@website.com</a></p><p class="lead"><strong>Phone:</strong><a href="#">+44 123 123 1232</a></p></div><div class="col-12 col-md-6 ml-auto pt-5 pt-md-0"><form><div class="row"><div class="col"><input class="form-control" placeholder="First name" type="text" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;"></div><div class="col"><input class="form-control" placeholder="Last name" type="text"></div></div><div class="row mt-4"><div class="col"><input class="form-control" placeholder="Enter email" type="email"></div></div><div class="row mt-4"><div class="col"><input class="form-control" placeholder="Subject" type="email"></div></div><div class="row mt-4"><div class="col"><textarea class="form-control" name="message" placeholder="How can we help?" rows="3"></textarea></div></div><div class="row mt-4"><div class="col"><button class="btn btn-primary" type="submit">Submit</button></div></div></form></div></div></div></section>
+<?php 
+endwhile; 
+get_footer(); 
+?>

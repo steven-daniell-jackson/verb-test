@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+/* Global*/
+body {
+  font-family: 'Work Sans', serif;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 4rem;
+}
+
+p {
+  color:var(--paragraph-color);
+}
+
+p.lead {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1157px;
+}
+
+hr {
+  display:block;
+  border:0px;
+  height:10px;
+  margin: 4rem 0;
+  background-image:url('http://localhost/seacontainers-wp/wp-content/uploads/2019/04/page-stripe.png');
+}
+/* !Global*/
+
+@media screen and (max-width: 667px) {
+
+h1 {
+  font-size: 2rem;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+.m-5 {
+    margin: 3rem!important;
+}
+.p-5 {
+    padding: 2rem!important;
+}
+
+}
