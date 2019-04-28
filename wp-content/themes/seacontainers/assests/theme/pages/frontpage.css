@@ -46,6 +46,25 @@ section.instagram-block .instagram-block-heading img {
 
 
 /* Media Queries*/
+
+
+/*iPad*/
+@media screen and (max-width: 1024px) { 
+.viewport-wrapper header nav {
+       height: 15vh;
+}
+.viewport-wrapper .banner-img-wrapper > img {
+    height: 65vh;
+    background-position: bottom;
+    background-size: auto;
+}
+.viewport-wrapper > .check-in-wrapper {
+   height: 20vh;
+   padding: 1rem;
+}
+}
+
+
 /*iPhone*/
 @media screen and (max-width: 667px) {
 
@@ -64,34 +83,19 @@ section.instagram-block .instagram-block-heading img {
 
 }
 
-/*iPad*/
-@media screen and (max-width: 1024px) { 
-.viewport-wrapper header nav {
-       height: 15vh;
-}
-.viewport-wrapper .banner-img-wrapper > img {
-    height: 65vh;
-    background-position: bottom;
-    background-size: auto;
-}
-.viewport-wrapper > .check-in-wrapper {
-   height: 20vh;
-   padding: 1rem;
-}
-}
-
 /* !Small Phones*/
 @media screen and (max-width: 425px) { 
 .viewport-wrapper header nav {
        height: 15vh;
 }
 .viewport-wrapper .banner-img-wrapper > img {
-    height: 50vh;
+    height: 30vh;
     background-position: bottom;
     background-size: auto;
 }
 .viewport-wrapper > .check-in-wrapper {
-   height: 35vh;
+   height: 55vh;
    padding: 1rem;
 }
 }
+
